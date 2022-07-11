@@ -1,0 +1,212 @@
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position:relative;
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position:relative;
+  display: block;
+  width: 100%;
+  padding: 50px 0 16px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/* 100% = 16px = 1em */
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+}
+
+p,li {
+  line-height: 2;
+}
+
+hr {
+  border: dotted 8px #EAF6F6;
+  border-bottom-style: none;
+  width: 6%;
+  margin: 100px auto;
+
+}
+
+.first-letter {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+a.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+  text-decoration: none;
+}
+
+a.footer-link:hover {
+  color: #EAF6F6;
+}
+
+a.mobile-link {
+  color: #40514E;
+  font-weight: bolder;
+}
+
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #33cccc;
+  text-decoration: none;
+}
+
+.greeting-message {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.skill {
+  text-align: center;
+}
+
+.career-summary {
+  width: 45%;
+  margin: 80px auto 200px;
+  text-align: left;
+
+}
+
+.skill-row {
+  display: inline-flex;
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: left;
+
+}
+
+.technical-description {
+  display: inline-block;
+  text-align: left;
+}
+
+.personal-description {
+  text-align: center;
+  width: 30%;
+  margin: 40px auto;
+
+}
+
+.contact-description {
+  margin: 50px auto;
+}
+
+.CTA {
+  text-align: center;
+  width: 50%;
+  margin: 40px auto 60px;
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0 0 0;
+}
+
+.cloud-1 {
+  position:absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.cloud-1 {
+  -webkit-animation: mover 25s infinite alternate;
+  animation: mover 25s infinite alternate;
+}
+
+.cloud-2 {
+  -webkit-animation: mover 20s infinite alternate;
+  animation: mover 20s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateX(-300%); }
+  100% { transform: translateX(300%); }
+}
+@keyframes mover {
+  0% { transform: translateX(-300%); }
+  100% { transform: translateX(300%); }
+}
+
+.mountain {
+  width: 42%
+}
+
+.profile-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 160px;
+  -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   transition: all 1s ease;
+}
+
+.profile-img:hover {
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   width: 170px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.web-design-img {
+  width: 25%;
+  margin: auto;
+}
